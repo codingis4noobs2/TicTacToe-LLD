@@ -29,6 +29,8 @@ Represents the TicTacToe game board.
 
 **isFull()**: Checks if the board is full.
 
+---
+
 #### Slot
 Represents a single slot in the TicTacToe game board.
 
@@ -47,6 +49,8 @@ Represents a position on the TicTacToe game board.
 
 **y**: Y-coordinate of the position.
 
+---
+
 #### Player
 
 Represents a player or bot in the game.
@@ -60,6 +64,8 @@ Represents a player or bot in the game.
 **isBot**: Flag indicating if the player is a bot.
 
 **move_history**: List of moves made by the player.
+
+---
 
 #### TicTacToe
 
