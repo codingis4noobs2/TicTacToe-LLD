@@ -94,6 +94,8 @@ Represents the main game logic.
 
 **undoMove(player)**: Undoes the last move made by the player.
 
+---
+
 ### GameFlow
 1. Initialize the game by taking user input for player details and board size.
 2. Display the board.
