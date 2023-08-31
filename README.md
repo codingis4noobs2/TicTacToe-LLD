@@ -19,33 +19,33 @@ Represents the TicTacToe game board.
 
 **Attributes**:
 
-size: The size of the board (e.g., 3 for a 3x3 board).
+**size**: The size of the board (e.g., 3 for a 3x3 board).
 
-slots: 2D list containing Slot objects.
+**slots**: 2D list containing Slot objects.
 
 ##### Methods:
 
-displayBoard(): Displays the current state of the board.
+**displayBoard()**: Displays the current state of the board.
 
-isFull(): Checks if the board is full.
+**isFull()**: Checks if the board is full.
 
 #### Slot
 Represents a single slot in the TicTacToe game board.
 
 **Attributes**:
 
-position: The position of the slot on the board.
+**position**: The position of the slot on the board.
 
-symbol: The symbol placed in the slot (e.g., "X" or "O").
+**symbol**: The symbol placed in the slot (e.g., "X" or "O").
 
 #### Position
 Represents a position on the TicTacToe game board.
 
 **Attributes**:
 
-x: X-coordinate of the position.
+**x**: X-coordinate of the position.
 
-y: Y-coordinate of the position.
+**y**: Y-coordinate of the position.
 
 #### Player
 
@@ -53,13 +53,13 @@ Represents a player or bot in the game.
 
 **Attributes**:
 
-name: Name of the player.
+**name**: Name of the player.
 
-symbol: Symbol chosen by the player.
+**symbol**: Symbol chosen by the player.
 
-isBot: Flag indicating if the player is a bot.
+**isBot**: Flag indicating if the player is a bot.
 
-move_history: List of moves made by the player.
+**move_history**: List of moves made by the player.
 
 #### TicTacToe
 
@@ -67,25 +67,25 @@ Represents the main game logic.
 
 **Attributes**:
 
-board: The game board.
+**board**: The game board.
 
-players: List of Player objects.
+**players**: List of Player objects.
 
-current_player_index: Index of the current player.
+**current_player_index**: Index of the current player.
 
-row_counts, col_counts, diag_counts: Lists to keep track of the counts of each row, column, and diagonal.
+**row_counts, col_counts, diag_counts**: Lists to keep track of the counts of each row, column, and diagonal.
 
 ##### Methods:
 
-startGame(): Main game loop.
+**startGame()**: Main game loop.
 
-makeMove(player): Handles player's moves.
+**makeMove(player)**: Handles player's moves.
 
-botMove(): Determines bot's move.
+**botMove()**: Determines bot's move.
 
-checkWinner(): Checks if the current player has won.
+**checkWinner()**: Checks if the current player has won.
 
-undoMove(player): Undoes the last move made by the player.
+**undoMove(player)**: Undoes the last move made by the player.
 
 ### GameFlow
 1. Initialize the game by taking user input for player details and board size.
