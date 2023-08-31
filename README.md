@@ -5,7 +5,8 @@
 2. [ClassDiagram](#classdiagram)
 3. [ClassDescriptions](#classdescriptions)
 4. [GameFlow](#gameflow)
-5. [Conclusion](#conclusion)
+5. [RunningGame](#runninggame)
+6. [Conclusion](#conclusion)
 
 ### Introduction
 This document details the low-level design of a TicTacToe game, outlining the classes, methods, and functionality.
@@ -101,6 +102,9 @@ Represents the main game logic.
    - Check if they have won.
    - Switch to the next player.
   Display the game result.
+
+### RunningGame
+To play the game, run the tictactoe_game.py file present inside tictactoe folder.
 
 ### Conclusion
 The low-level design of the TicTacToe game provides a detailed overview of the classes, attributes, methods, and game flow. The game supports both human players and bot players.
